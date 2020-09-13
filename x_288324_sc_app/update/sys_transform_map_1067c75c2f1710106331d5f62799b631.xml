@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>x_288324_sc_app_drop_location_transform_map</name>
+        <order>100</order>
+        <run_business_rules>false</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_288324_sc_app_1599975598454</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-13 05:43:15</sys_created_on>
+        <sys_id>1067c75c2f1710106331d5f62799b631</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_288324_sc_app_drop_location_transform_map</sys_name>
+        <sys_package display_value="SC App" source="x_288324_sc_app">cc760bd82f1710106331d5f62799b6b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SC App">cc760bd82f1710106331d5f62799b6b0</sys_scope>
+        <sys_update_name>sys_transform_map_1067c75c2f1710106331d5f62799b631</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-13 05:43:15</sys_updated_on>
+        <target_table>x_288324_sc_app_drop_location</target_table>
+    </sys_transform_map>
+</record_update>
